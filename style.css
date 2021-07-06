@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.top-bar {
+  background-image: url(images/Project\ Cover4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.navigation {
+  width: 40%;
+  overflow: hidden;
+}
+
+.navigation a {
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 18;
+  padding-left: 20px;
+  text-align: center;
+  float: left;
+  color: rgb(247, 184, 14);
+  text-align: center;
+}
+
+.navigation a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+.left-side-design {
+  width: 50%;
+}
+.text-bottom {
+  padding-left: 7%;
+  color: rgba(255, 178, 10, 0.925);
+  font-size: 2rem;
+}
+#paragraph {
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+.half-width {
+  width: 40%;
+  padding-left: 3px;
+  margin-left: 7%;
+}
+.food-village {
+  display: flex;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+.color-word {
+  color: orangered;
+}
+.img-design {
+  width: 100%;
+}
+.heading-design {
+  font-size: 2rem;
+}
+.link {
+  border-radius: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-decoration: none;
+  background-image: linear-gradient(rgba(255, 166, 0, 0.39), orangered);
+  padding: 15px 25px;
+}
+.about-section {
+  display: flex;
+  padding-top: 7%;
+  background-image: url(images/bg-2.png);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.recipie {
+  text-align: center;
+  font-size: large;
+  line-height: 1.5;
+}
+.rcp {
+  box-sizing: border-box;
+  box-shadow: 10px 12px 10px 2px rgb(19, 17, 17);
+  border-radius: 15px;
+  width: 300px;
+  margin: 10px;
+  background-color: white;
+  padding: 15px;
+}
+.rcp-desc {
+  text-align: justify;
+  line-height: 1.5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.rcp-body {
+  padding: 5px;
+}
+.rcp-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.rcp-title {
+  text-align: center;
+  font-size: normal;
+  color: chocolate;
+}
+.social-media-section {
+  margin: auto;
+  width: 70%;
+  border: 5px solid whitesmoke;
+  padding: 15px 10px;
+  box-shadow: rgb(216, 114, 114) 2px 2px 2px 4px;
+  display: flex;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.social-media-section:hover {
+  background-color: pink;
+}
+.social {
+  width: 30%;
+  margin: 3%;
+}
+.grey-color {
+  color: grey;
+  font-size: large;
+}
+.footer-des {
+  background-color: black;
+  text-align: center;
+  padding: 15px 30px;
+}
